@@ -1,0 +1,110 @@
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(217, 222, 223);
+}
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 30%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.precio {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+button {
+    background-color: #6c6ec5;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    
+}
+
+.block-element {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    display:flex; 
+    justify-content: center;
+     align-items: center;
+
+    padding: 10 px
+}
+
+flex-container{
+    display: flex;
+}
+.item {
+    padding: 10px;
+    background-color: lightpink;
+    margin: 5px;
+}
+
+.navbar{
+    background-color: #007bff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.descripcion {
+text-align: center;
+background-color: aquamarine;
+
+}
+
+.ima{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
